@@ -1,0 +1,428 @@
+<%@ page language="java" import="java.util.*" pageEncoding="Utf-8"%>
+ <!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<title>Travel | Home Page</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="icon" type="image/png" href="../image/favicon.ico">
+	 <link rel="stylesheet" type="text/css" href="../CSS/CSSforBlog/style.css" media="screen"/>
+	 <link rel="stylesheet" type="text/css" href="../CSS/CSSforSliders/elastic.css"  media="screen"/>
+	 <link rel="stylesheet" type="text/css" href="../CSS/CSSforThemeChanger/colorpicker.css">
+	 <link rel="stylesheet" type="text/css" href="../CSS/CSSforThemeChanger/themeChanger.css">
+	
+	<!-- HTML5 Shiv + detect touch events -->
+	<script src="../JS/JSforBlog&Home&Show&Map/modernizr.custom.js"></script>
+	 
+</head>
+<body class="liquid light">
+
+<div id="wrapper">
+
+	
+	<!-- ***************** - Header Top - ***************** -->	
+	
+	<div id="header-top" class="clearfix">
+		
+		<section class="container clearfix">
+			
+			<div class="one-half">
+				
+				<ul class="contact-info clearfix">
+					<li class="phone">+131 66 232 160</li>
+					<li class="email"><a href="mailto:info@companyname.com">1090096672@qq.com</a></li>
+				</ul><!--/ .contact-info-->	
+				
+			</div><!--/ .one-half-->
+			
+			<div  class="one-half last">
+				<ul data-description="Stay in touch via social networks:" class="social-links clearfix">
+					<li data-tooltip="LinkedIn" class="linked"><a href="#">LinkedIn</a></li>
+					<li data-tooltip="Flickr" class="flickr"><a href="#">Flickr</a></li>
+					<li data-tooltip="Twitter" class="twitter"><a href="#">Twitter</a></li>
+					<li data-tooltip="Facebook" class="facebook"><a href="#">Facebook</a></li>
+					<li data-tooltip="Rss" class="rss"><a href="#">Rss</a></li>
+				</ul><!--/ .social-links-->	
+			</div><!--/ .one-fourth.last-->
+			
+		</section><!--/ .container-->
+		
+		<a href="#" id="more"></a>
+		
+	</div><!--/ #header-top-->
+	
+	<!-- ***************** - END Header Top - ***************** -->
+
+
+	<!-- ***************** - Container - ***************** -->
+	
+	<section class="container">
+
+		
+		<!-- ***************** - Header - ***************** -->
+		
+		<header id="header" class="clearfix">
+			
+			<div id="logo">
+				<h1><a href="index.html">Travel</a></h1>
+				<div class="slogan"><span> </span></div><!--/ .slogan-->
+			</div><!--/ #logo-->
+			
+			<nav id="navigation" class="navigation">
+				<ul>
+					<li class="current"><a href="JS/Home.jsp">主页</a></li>
+					<li><a href="JS/Blog.jsp">随性</a>
+						 
+					 
+					
+					<li><a href="JS/SearchResult.jsp">搜寻结果</a>
+						 
+					</li>
+					<li><a href="JS/Map.jsp">写信</a>
+						 
+					</li>
+					<li><a href="JS/Login.jsp">退出</a></li>
+				</ul>
+			</nav><!--/ #navigation-->
+			
+		</header><!--/ #header-->
+		
+		<!-- **************** - end Header - **************** -->
+       		 <div class="page-header clearfix">
+				
+				<h1 class="alignleft">主页</h1>
+				
+				<div class="search-container">
+					<form id="search" action="/">
+						<input placeholder="Search" type="text" />
+						<button type="submit"></button>
+					</form><!--/ #search-->
+				</div><!--/ .search-container-->
+				
+			</div><!--/ .page-header-->
+			
+
+
+		<!-- ***************** - Slider - ***************** -->	
+		
+		<div id="ei-slider" class="ei-slider">
+			
+			<ul class="ei-slider-large">
+				
+				<li>
+					<img src="../image/sliders/img_01.jpg" alt="image01" />
+					<div class="ei-title">
+						<h2>The Old Mills, Holland</h2>
+						<h3>Photography</h3>
+					</div>
+				</li>
+				<li>
+					<img src="../image/sliders/img_02.jpg" alt="image01" />
+					<div class="ei-title">
+						<h2>The Bay of Kotor, Montenegro</h2>
+						<h3>Photography</h3>
+					</div>
+				</li>
+				<li>
+					<img src="../image/sliders/img_03.jpg" alt="image01" />
+					<div class="ei-title">
+						<h2>The Liberty Bridge Across The River Danube, Hungary</h2>
+						<h3>Travelling</h3>
+					</div>
+				</li>
+				<li>
+					<img src="../image/sliders/img_04.jpg" alt="image01" />
+					<div class="ei-title">
+						<h2>Panorama View of Budapest,  Hungary</h2>
+						<h3>Photography</h3>
+					</div>
+				</li>
+				<li>
+					<img src="../image/sliders/img_05.jpg" alt="image01" />
+					<div class="ei-title">
+						<h2>Panorama View of Budapest, Hungary</h2>
+						<h3>Travelling</h3>
+					</div>
+				</li>
+				
+			</ul><!-- ei-slider-large -->
+			
+			<ul class="ei-slider-thumbs">
+				
+				<li class="ei-slider-element">Current</li>
+				<li><a href="#">Slide 1</a><img src="../image/thumbs/1.jpg" alt="thumb01" /></li>
+				<li><a href="#">Slide 2</a><img src="../image/thumbs/2.jpg" alt="thumb02" /></li>
+				<li><a href="#">Slide 3</a><img src="../image/thumbs/3.jpg" alt="thumb03" /></li>
+				<li><a href="#">Slide 4</a><img src="../image/thumbs/4.jpg" alt="thumb04" /></li>
+				<li><a href="#">Slide 5</a><img src="../image/thumbs/5.jpg" alt="thumb05" /></li>
+				
+			</ul><!-- ei-slider-thumbs -->
+			
+		</div><!-- ei-slider -->
+		
+		<!-- *************** - end Slider - *************** -->	
+
+		
+		<!-- *************** - Projects Carousel - *************** -->	
+		
+		<div class="page-title clearfix">
+
+			<h2>最新资讯</h2>
+
+		</div><!--/ .page-title-->
+		
+		<div class="container">
+			
+			<div class="one-fourth">
+				
+				<p>
+					 哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
+				</p>
+				<p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+				
+				 
+				
+			</div><!--/ .one-fourth-->
+
+			<div class="three-fourth last">
+				<ul class="projects-carousel clearfix">
+					<li>
+						<a href="#">
+							<img src="../image/portfolio/one-thumb-3th.jpg" alt="" />
+							<h3 class="title"></h3>
+							<span class="categories">摄影</span>
+						</a>
+					</li>
+
+					
+
+					<li>
+						<a href="#">
+							<img src="../image/portfolio/three-thumb-3th.jpg" alt="" />
+							<h3 class="title"></h3>
+							<span class="categories">摄影</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../image/portfolio/four-thumb-3th.jpg" alt="" />
+							<h3 class="title"></h3>
+							<span class="categories">摄影</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="../image/portfolio/five-thumb-3th.jpg" alt="" />
+							<h3 class="title"></h3>
+							<span class="categories">摄影</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="../image/portfolio/sixth-thumb-3th.jpg" alt="" />
+							<h3 class="title"></h3>
+							<span class="categories">摄影</span>
+						</a>
+					</li>
+				</ul><!--/ .projects-carousel -->			
+			</div><!--/ .three-fourth-->
+			
+		</div><!--/ .container-->
+		<div class="clear"></div>
+		
+		<!-- *************** - end Projects Carousel - *************** -->	
+
+		
+		<!-- *************** - Tabs Container - *************** -->	
+		
+		<div class="content-tabs">
+			
+			<ul class="tabs-nav clearfix">
+
+				 
+				<li><a href="#tab2">来自博客</a></li>
+				<li><a href="#tab3">我要发言</a></li>
+
+			</ul><!--/ .tabs-nav -->
+
+			<div class="tabs-container">
+
+				 
+				<div class="tab-content" id="tab2">
+
+					<div class="one-fourth">
+						<a href="#"><img class="entry-image" src="../image/temp/blog_thumb_1.jpg" alt="" /></a>
+						<div class="entry-title">
+							<a href="#"><h2><span class="post-type video"></span>Sed ut perspiciatis unde omnis iste</h2></a>
+						</div><!--/ .entry-title-->
+						 
+					</div><!--/ .one-fourth-->
+
+					<div class="one-fourth">
+						<a href="#"><img class="entry-image" src="../image/temp/blog_thumb_2.jpg" alt="" /></a>
+						<div class="entry-title">
+							<a href="#"><h2><span class="post-type picture"></span>Sed ut perspiciatis unde omnis iste</h2></a>
+						</div><!--/ .entry-title-->
+						 
+					</div><!--/ .one-fourth-->
+
+					<div class="one-fourth">
+						<a href="#"><img class="entry-image" src="../image/temp/blog_thumb_3.jpg" alt="" /></a>
+						<div class="entry-title">
+							<a href="#"><h2><span class="post-type list"></span>Sed ut perspiciatis unde omnis iste</h2></a>
+						</div><!--/ .entry-title-->
+						 
+					</div><!--/ .one-fourth-->
+
+					<div class="one-fourth last">
+						<a href="#"><img class="entry-image" src="../image/temp/blog_thumb_4.jpg" alt="" /></a>
+						<div class="entry-title">
+							<a href="#"><h2><span class="post-type picture"></span>Sed ut perspiciatis unde omnis iste</h2></a>
+						</div><!--/ .entry-title-->
+						<div class="entry-meta">
+						 
+					</div><!--/ .one-fourth.last-->
+
+				</div><!--/ #tab2-->
+
+				<div class="tab-content" id="tab3">
+					
+					<div class="tweet"></div>
+					
+				</div><!--/ #tab3-->
+
+			</div><!--/ .tabs-container -->		
+		</div><!--/ .content-tabs-->
+
+		<!-- ************** - end Tabs Container - ************** -->
+
+		
+		<!-- ************* - BEGIN Testimonials - *************** -->
+		
+		<div class="testimonials">
+			
+			<h1>客户感言</h1>
+			
+			<div class="quote-nav">
+				<span class="quote-prev">Previous</span>
+				<span class="quote-next">Next</span>
+			</div><!--/ .quote-nav-->
+			
+			<ul class="quoteBox">
+				<li>
+					<blockquote class="quote-text">
+						 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞，
+                          喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞，
+                           喜欢点赞， 喜欢点赞， 喜欢点赞，
+						<div class="quote-author">-- zhaowenhao</div>
+					</blockquote>					
+				</li>
+				<li>
+					<blockquote class="quote-text">
+						 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞，
+                          喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞， 喜欢点赞，
+						<div class="quote-author"> --zhaowenhao</div>
+					</blockquote>					
+				</li>
+			</ul><!--/ .quoteBox-->
+			
+		</div><!--/ #testimonials -->
+		
+		<!-- ************* - end Testimonials - *************** -->
+
+
+		<!-- ************* - Main Footer - *************** -->
+		
+		<footer id="footer" class="clearfix">
+			
+			<div class="one-half">
+				 
+				<div class="copyright">&copy;   All rights reserved.</div><!--/ .copyright-->
+				
+			</div><!--/ .one-half-->
+			
+			 
+			
+		</footer>
+		
+		<!-- ************ - end Footer - ************ -->	
+
+		
+	</section><!--/ .container-->
+	
+	<!-- *************** - end Container - *************** -->
+
+	
+	<!-- ************ - Footer Bottom - ************ -->
+	
+	 <footer id="footer-bottom">
+		
+		<a href="#" id="footer-more"></a>
+		
+		<section class="container panel clearfix">
+			
+			<div class="one-half">
+				<div class="widget-text">
+					<h1>关于我们</h1>
+					<p>
+						 为了完成J2EE期末作业，我们设计这个旅游指南网站。<br/>
+                         希望大家都取的好成绩
+					</p>
+				</div><!--/ .widget-text-->
+			</div><!--/ .one-half-->
+			
+			<div class="one-fourth">
+				<div class="widget-flickr">
+					<h1>美图览览</h1>
+					<ul id="flickr-badge" class="clearfix"></ul>
+				</div><!--/ .widget-flickr-->
+			</div><!--/ .one-fourth-->
+			
+			<div class="one-fourth last">
+				<div id="signup">
+					<h1>加入我们的团队</h1>
+					<form method="post" action="/" id="signup_form">
+						<fieldset>
+							<label for="s-email">我们会通过邮箱联系你</label>
+							<input type="text" placeholder="输入邮箱" name="s-email" id="s-email"/>
+							<input type="submit" name="signup_submit" id="signup_submit" value="提交" />
+						</fieldset>
+					</form><!--/ #signup_form-->
+				</div><!--/ #signup -->
+			</div><!--/ .one-fourth.last-->
+			
+		</section><!--/ .container-->
+	</footer><!--/ #footer-bottom-->
+
+	
+</div><!--/ #wrapper-->
+
+<script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>!window.jQuery && document.write('<script src="../JS/JSforBlog&Home&Show&Map/jquery-1.7.1.min.js"><\/script>')</script>
+ 
+<!--[if lt IE 9]>
+	<script src="../JS/JSforBlog&Home&Show&Map/selectivizr-and-extra-selectors.min.js"></script>
+	<script src="../../ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+	 <script src="../JS/JSforBlog&Home&Show&Map/respond.min.js"></script>
+	 <script src="../JS/JSforBlog&Home&Show&Map/jquery.easing-1.3.min.js"></script>
+ 	 <script src="../JS/JSforSliders/elastslider/jquery.eislideshow.js"></script>
+ 
+	 <script src="../JS/JSforBlog&Home&Show&Map/jquery.jcarousel.min.js"></script>
+	 <script src="../JS/JSforBlog&Home&Show&Map/jquery.cycle.all.min.js"></script>
+     <script src="../JS/JSforBlog&Home&Show&Map/custom.js"></script>
+     <script src="../JS/themeChanger/JSforThemeChanger/colorpicker.js"></script>
+     <script src="../JS/themeChanger/JSforThemeChanger/themeChanger.js"></script>
+ 
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+

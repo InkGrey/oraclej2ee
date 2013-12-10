@@ -12,15 +12,13 @@ import po.User;
 
 public class UserDAO {
 	public int checkLogin(User user){
-		String sql = "select userName , userPassword from wf_user where userEmail=? and userPassword=?";
+		String sql = "select userEmail , userPassword from wf_user where userEmail='"+user.getUserEmail()+"'";
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		int result = 0;
 		Connection conn = DBConnection.getConnection();
 		try {
 			pstmt = conn.prepareStatement(sql);
-			pstmt.setString(1, user.getUserEmail());
-			pstmt.setString(2, user.getUserPassword());
 			rs = pstmt.executeQuery();
 			if (rs.next()) {
 				result = 1;
@@ -32,6 +30,13 @@ public class UserDAO {
 			DBConnection.closeConnection(conn);
 		}
 		return result;
+	}
+	public static void main(String[] args) {
+		User user = new User();
+		user.setUserEmail("zq@zq.com");
+		user.setUserPassword("123456");
+		System.out.println(new UserDAO().checkLogin(user));
+		
 	}
 
 }

@@ -7,6 +7,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import po.User;
+
+import dao.UserDAO;
+
 public class UserAction extends HttpServlet{
 	/**
 	 * @author Maggie
@@ -20,8 +24,14 @@ public class UserAction extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		String userName = req.getParameter("userName");
+		String userEmail = req.getParameter("userEmail");
 		String userPassword = req.getParameter("userPassword");
-		System.out.println( userName + userPassword);
+		User user = new User();
+		user.setUserEmail(userEmail);
+		user.setUserPassword(userPassword);
+		int result = new UserDAO().checkLogin(user);
+		if (result == 1) {
+			System.out.println("登录成功");
+		}
 	}
 }
